@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dilemas Digitais - Entenda os termos de uso dos sites e encontre soluções.">
+    <title>Dilemas Digitais | Termos de Uso</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1>Dilemas<span>Digitais</span></h1>
+
+            <div class="menu">
+                <a href="#inicio">Início</a>
+                <a href="#dilemas">Dilemas</a>
+                <a href="#solucoes">Soluções</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <span class="tag">CIDADANIA DIGITAL</span>
+
+                <h2>
+                    Você realmente sabe
+                    <strong>o que aceita?</strong>
+                </h2>
+
+                <p>
+                    Os termos de uso estão presentes em praticamente todos os
+                    sites e aplicativos. O problema é que muitas vezes eles são
+                    extensos, complicados e difíceis de entender.
+                </p>
+
+                <a href="#dilemas" class="button">
+                    Explorar dilemas
+                </a>
+            </div>
+
+            <div class="hero-card">
+                <div class="document-icon">📄</div>
+                <h3>Termos de Uso</h3>
+                <p>
+                    "Li e concordo com os termos..."
+                </p>
+                <div class="fake-button">ACEITAR</div>
+                <small>Você leu tudo?</small>
+            </div>
+        </section>
+
+
+        <section id="dilemas" class="section">
+            <div class="section-title">
+                <span class="tag">OS PROBLEMAS</span>
+                <h2>Principais dilemas digitais</h2>
+                <p>
+                    Descubra alguns dos problemas causados pela forma como
+                    os termos de uso são apresentados.
+                </p>
+            </div>
+
+            <div class="cards">
+
+                <article class="card">
+                    <div class="card-icon">🔒</div>
+                    <h3>Privacidade</h3>
+                    <p>
+                        Alguns termos permitem que empresas coletem e utilizem
+                        uma grande quantidade de dados dos usuários.
+                    </p>
+
+                    <button class="solution-btn" data-target="privacidade">
+                        Ver solução
+                    </button>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">📚</div>
+                    <h3>Textos complexos</h3>
+                    <p>
+                        Linguagem jurídica e documentos muito extensos tornam
+                        difícil compreender aquilo que está sendo aceito.
+                    </p>
+
+                    <button class="solution-btn" data-target="complexidade">
+                        Ver solução
+                    </button>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">✅</div>
+                    <h3>Aceitação automática</h3>
+                    <p>
+                        Muitas pessoas clicam em "Aceitar" sem conhecer as
+                        regras, direitos e responsabilidades envolvidos.
+                    </p>
+
+                    <button class="solution-btn" data-target="aceitacao">
+                        Ver solução
+                    </button>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Consentimento</h3>
+                    <p>
+                        Algumas interfaces dificultam a recusa ou deixam as
+                        opções de privacidade menos visíveis.
+                    </p>
+
+                    <button class="solution-btn" data-target="consentimento">
+                        Ver solução
+                    </button>
+                </article>
+
+            </div>
+        </section>
+
+
+        <section id="solucoes" class="solutions-section">
+            <div class="section-title">
+                <span class="tag">PROPOSTAS</span>
+                <h2>Soluções para um ambiente mais justo</h2>
+                <p>
+                    A tecnologia pode tornar os termos de uso mais transparentes
+                    e acessíveis.
+                </p>
+            </div>
+
+            <div id="solution-display" class="solution-display">
+                <div class="solution-placeholder">
+                    <span>💡</span>
+                    <h3>Escolha um dilema</h3>
+                    <p>
+                        Clique em "Ver solução" para descobrir uma proposta
+                        para cada problema.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="principles">
+            <div>
+                <span class="tag">NOSSA PROPOSTA</span>
+                <h2>Termos de uso devem ser compreensíveis.</h2>
+            </div>
+
+            <div class="principles-list">
+                <div>
+                    <strong>01</strong>
+                    <p>Linguagem simples</p>
+                </div>
+
+                <div>
+                    <strong>02</strong>
+                    <p>Transparência sobre dados</p>
+                </div>
+
+                <div>
+                    <strong>03</strong>
+                    <p>Escolhas realmente livres</p>
+                </div>
+
+                <div>
+                    <strong>04</strong>
+                    <p>Resumo antes da aceitação</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="quiz">
+            <span class="tag">TESTE SEUS CONHECIMENTOS</span>
+            <h2>Você prestaria atenção aos termos?</h2>
+
+            <p>
+                Antes de aceitar, qual destas atitudes é mais segura?
+            </p>
+
+            <div class="quiz-options">
+                <button data-answer="wrong">
+                    Clicar em "Aceitar" rapidamente
+                </button>
+
+                <button data-answer="correct">
+                    Verificar como meus dados serão utilizados
+                </button>
+
+                <button data-answer="wrong">
+                    Ignorar todas as configurações de privacidade
+                </button>
+            </div>
+
+            <div id="quiz-result"></div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div>
+            <h2>Dilemas<span>Digitais</span></h2>
+            <p>
+                Educação e cidadania para uma internet mais transparente.
+            </p>
+        </div>
+
+        <p>Projeto educacional • 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
